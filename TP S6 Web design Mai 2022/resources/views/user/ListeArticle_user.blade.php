@@ -123,7 +123,7 @@
 
 
       @foreach ($listeUserArticle as $article)
-      <div class="column user">
+      <article class="column user">
         <div class="content">
           <div class="image-frame">
             <img style="width: 400px;height: 200px" style="width: 100px;height: 100px" src="{{ $article->image }}" alt="Mountains">
@@ -133,7 +133,7 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
-        </div>
+        </article>
       </div>
 
       <div class="modal fade" id="exampleModal{{$k}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -177,7 +177,7 @@
     @if($recherche != null)
     <div class="row">
       @foreach ($recherche as $article)
-      <div class="column user">
+      <article class="column user">
         <div class="content">
           <div class="image-frame">
             <img style="width: 400px;height: 200px" src="{{ $article->image }}" alt="Mountains">
@@ -187,7 +187,7 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
-        </div>
+        </article>
       </div>
 
       <div class="modal fade" id="exampleModal{{$k}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
