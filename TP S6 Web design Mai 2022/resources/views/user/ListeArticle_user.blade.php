@@ -13,9 +13,6 @@
   <!-- Site Metas -->
   <meta name="description" content="Découvrez les dernières avancées en matière d'IA grâce à nos articles approfondis.">
   <meta name="keywords" content="IA, intelligence artificielle, articles, avancées">
-  <meta name="robots" content="index,follow">
-  <meta name="googlebot" content="index,follow">
-
 
   <title>Articles sur l'IA - Découvrez les dernières avancées en intelligence artificielle</title>
 
@@ -88,7 +85,7 @@
             <img style="width:400px;height:200px"src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
           <h4>{{ $article->titre }}</h4>
-          <h5>{{ $article->resumer }}</h5>
+          <p>{{ $article->resumer }}</p>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
@@ -125,7 +122,7 @@
             <img style="width: 400px;height: 200px" style="width: 100px;height: 100px" src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
           <h4>{{ $article->titre }}</h4>
-          <h5>{{ $article->resumer }}</h5>
+          <p>{{ $article->resumer }}</p>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
@@ -179,7 +176,7 @@
             <img style="width: 400px;height: 200px" src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
           <h4>{{ $article->titre }}</h4>
-          <h5>{{ $article->resumer }}</h5>
+          <p>{{ $article->resumer }}</p>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
