@@ -89,7 +89,7 @@
       <div class="column admin">
         <div class="content">
           <div class="image-frame">
-            <img style="width:400px;height:200px"src="{{ $article->image }}" alt="Mountains">
+            <img style="width:400px;height:200px"src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
           <h4>{{ $article->titre }}</h4>
           <p>{{ $article->resumer }}</p>
@@ -126,7 +126,7 @@
       <div class="column user">
         <div class="content">
           <div class="image-frame">
-            <img style="width: 400px;height: 200px" style="width: 100px;height: 100px" src="{{ $article->image }}" alt="Mountains">
+            <img style="width: 400px;height: 200px" style="width: 100px;height: 100px" src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
           <h4>{{ $article->titre }}</h4>
           <p>{{ $article->resumer }}</p>
@@ -180,7 +180,7 @@
       <div class="column user">
         <div class="content">
           <div class="image-frame">
-            <img style="width: 400px;height: 200px" src="{{ $article->image }}" alt="Mountains">
+            <img style="width: 400px;height: 200px" src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
           <h4>{{ $article->titre }}</h4>
           <p>{{ $article->resumer }}</p>
