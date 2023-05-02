@@ -162,7 +162,7 @@
   <div class="input-article">
     <form action="{{ url('/liste') }}" method="get">
       <h4>Rechercher un article:</h4>
-      <input type="text" id="recherche" name="recherche"><br><br>
+      <input placeholder="rechercher" type="text" id="recherche" name="recherche"><br><br>
       <button class="btn btn-primary" type="submit">rechercher</button>
     </form>
     <!-- resultat recherche -->
@@ -219,10 +219,10 @@
       {{ csrf_field() }}
 
       <label for="article_title">Titre de l'article:</label><br>
-      <input Style="width: 25%;" type="text" id="article_title" name="titre"><br><br>
+      <input placeholder="Titre" Style="width: 25%;" type="text" id="article_title" name="titre"><br><br>
 
       <label for="auteur">Auteur:</label><br>
-      <input type="text" id="auteur" name="auteur"><br><br>
+      <input placeholder="Ex: Steven" type="text" id="auteur" name="auteur"><br><br>
 
       <label for="article_summary">Description:</label><br>
       <textarea style="width: 50%;height: 200px;" id="article_summary" name="description"></textarea><br><br>
