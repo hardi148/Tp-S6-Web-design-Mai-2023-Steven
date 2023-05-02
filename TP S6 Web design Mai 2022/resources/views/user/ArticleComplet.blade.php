@@ -44,7 +44,6 @@
   </div>
   <h3>Description: </h3>
   <p>{{$article->description}}</p>
-  <script type="text/javascript" src="assets2/assets/js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="assets2/assets/js/bootstrap.js"></script>
+ 
 </body>
 </html>
