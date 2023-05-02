@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8" />
 
+      <!-- bootstrap core css -->
+      <link rel="stylesheet" type="text/css" href="assets2/assets/css/bootstrap.css" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- Mobile Metas -->
