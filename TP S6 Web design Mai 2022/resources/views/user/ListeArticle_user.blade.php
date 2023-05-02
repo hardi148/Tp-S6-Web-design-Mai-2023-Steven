@@ -18,8 +18,7 @@
   <title>Articles sur l'IA - Découvrez les dernières avancées en intelligence artificielle</title>
 
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="assets2/assets/css/bootstrap.css" />
+ 
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&amp;display=swap" rel="stylesheet" />
