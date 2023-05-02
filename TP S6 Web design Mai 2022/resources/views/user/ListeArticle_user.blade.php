@@ -84,8 +84,8 @@
           <div class="image-frame">
             <img style="width:400px;height:200px"src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
-          <h2>{{ $article->titre }}</h2>
-          <h4>{{ $article->resumer }}</h4>
+          <h4>{{ $article->titre }}</h4>
+          <p>{{ $article->resumer }}</p>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
@@ -102,7 +102,7 @@
               </button>
             </div>
             <div class="modal-body">
-             <p> {{ $article->description }} </p>
+              <p> {{ $article->description }}</p>
             </div>
             <div class="modal-footer">
               <a href="{{url('/ArticleComplet')}}/{{$article->id}}-{{Str::slug($article->titre)}}-complet.html">voir l'article au complet</a>
@@ -121,8 +121,8 @@
           <div class="image-frame">
             <img style="width: 400px;height: 200px" style="width: 100px;height: 100px" src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
-          <h2>{{ $article->titre }}</h2>
-          <h4>{{ $article->resumer }}</h4>
+          <h4>{{ $article->titre }}</h4>
+          <p>{{ $article->resumer }}</p>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
@@ -139,7 +139,7 @@
               </button>
             </div>
             <div class="modal-body">
-              <p>{{ $article->description }}</p>
+              <p> {{ $article->description }}</p>
             </div>
             <div class="modal-footer">
               <p>Auteur: {{$article->auteur}}
@@ -175,8 +175,8 @@
           <div class="image-frame">
             <img style="width: 400px;height: 200px" src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
-          <h2>{{ $article->titre }}</h2>
-          <h4>{{ $article->resumer }}</h4>
+          <h4>{{ $article->titre }}</h4>
+          <p>{{ $article->resumer }}</p>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
@@ -193,7 +193,7 @@
               </button>
             </div>
             <div class="modal-body">
-             <p> {{ $article->description }}</p>
+              <p> {{ $article->description }}</p>
             </div>
             <div class="modal-footer">
               @if($article->auteur!=null)
