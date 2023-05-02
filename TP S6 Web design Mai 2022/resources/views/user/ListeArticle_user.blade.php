@@ -40,7 +40,7 @@
 
 
         <div class="numbertext">{{$i}} / {{count($recentAdminArticles)}}</div>
-        <img src="{{ $article->image}}" style="width:900px;height:400px;">
+        <img src="{{ $article->image}}" style="width:900px;height:400px;" alt="{{ $article->titre }}">
         <div class="contenu">
           <h1> {{ $article->titre}} </h1>
           <p>{{ $article->resumer}}</p>
