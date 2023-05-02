@@ -89,7 +89,7 @@
       <div class="column admin">
         <div class="content">
           <div class="image-frame">
-            <img style="width:300px;height:200px"src="{{ $article->image }}" alt="Mountains">
+            <img style="width:400px;height:200px"src="{{ $article->image }}" alt="Mountains">
           </div>
           <h4>{{ $article->titre }}</h4>
           <p>{{ $article->resumer }}</p>
@@ -103,7 +103,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">{{ $article->titre }}</h5>
+              <h5 class="modal-title" id="exampleModalLabel{{$k}}">{{ $article->titre }}</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -126,7 +126,7 @@
       <div class="column user">
         <div class="content">
           <div class="image-frame">
-            <img style="width: 300px;height: 200px" style="width: 100px;height: 100px" src="{{ $article->image }}" alt="Mountains">
+            <img style="width: 400px;height: 200px" style="width: 100px;height: 100px" src="{{ $article->image }}" alt="Mountains">
           </div>
           <h4>{{ $article->titre }}</h4>
           <p>{{ $article->resumer }}</p>
@@ -140,7 +140,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">{{ $article->titre }}</h5>
+              <h5 class="modal-title" id="exampleModalLabel{{$k}}">{{ $article->titre }}</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -180,7 +180,7 @@
       <div class="column user">
         <div class="content">
           <div class="image-frame">
-            <img style="width: 300px;height: 200px" src="{{ $article->image }}" alt="Mountains">
+            <img style="width: 400px;height: 200px" src="{{ $article->image }}" alt="Mountains">
           </div>
           <h4>{{ $article->titre }}</h4>
           <p>{{ $article->resumer }}</p>
@@ -194,7 +194,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">{{ $article->titre }}</h5>
+              <h5 class="modal-title" id="exampleModalLabel{{$k}}">{{ $article->titre }}</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
