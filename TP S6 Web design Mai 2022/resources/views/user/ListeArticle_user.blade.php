@@ -92,7 +92,7 @@
             <img style="width:400px;height:200px"src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
           <h4>{{ $article->titre }}</h4>
-          <p>{{ $article->resumer }}</p>
+          <h5>{{ $article->resumer }}</h5>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
@@ -129,7 +129,7 @@
             <img style="width: 400px;height: 200px" style="width: 100px;height: 100px" src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
           <h4>{{ $article->titre }}</h4>
-          <p>{{ $article->resumer }}</p>
+          <h5>{{ $article->resumer }}</h5>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
@@ -183,7 +183,7 @@
             <img style="width: 400px;height: 200px" src="{{ $article->image }}" alt="{{ $article->titre }}">
           </div>
           <h4>{{ $article->titre }}</h4>
-          <p>{{ $article->resumer }}</p>
+          <h5>{{ $article->resumer }}</h5>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
