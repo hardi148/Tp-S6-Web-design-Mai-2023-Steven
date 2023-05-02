@@ -20,10 +20,6 @@
   <title>Articles sur l'IA - Découvrez les dernières avancées en intelligence artificielle</title>
 
 
- 
-
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&amp;display=swap" rel="stylesheet" />
   <!-- Custom styles for this template -->
   <link href="assets2/assets/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
