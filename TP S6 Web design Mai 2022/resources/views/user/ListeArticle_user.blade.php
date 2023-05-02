@@ -86,7 +86,7 @@
     <div class="row">
       <?php $k = 0; ?>
       @foreach ($listeAdminArticle as $article)
-      <article class="column admin">
+      <div class="column admin">
         <div class="content">
           <div class="image-frame">
             <img style="width:400px;height:200px"src="{{ $article->image }}" alt="Mountains">
@@ -96,7 +96,7 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
-        </article>
+        </div>
       </div>
 
       <div class="modal fade" id="exampleModal{{$k}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -123,7 +123,7 @@
 
 
       @foreach ($listeUserArticle as $article)
-      <article class="column user">
+      <div class="column user">
         <div class="content">
           <div class="image-frame">
             <img style="width: 400px;height: 200px" style="width: 100px;height: 100px" src="{{ $article->image }}" alt="Mountains">
@@ -133,7 +133,7 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
-        </article>
+        </div>
       </div>
 
       <div class="modal fade" id="exampleModal{{$k}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -177,7 +177,7 @@
     @if($recherche != null)
     <div class="row">
       @foreach ($recherche as $article)
-      <article class="column user">
+      <div class="column user">
         <div class="content">
           <div class="image-frame">
             <img style="width: 400px;height: 200px" src="{{ $article->image }}" alt="Mountains">
@@ -187,7 +187,7 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$k}}">
             voir plus
           </button>
-        </article>
+        </div>
       </div>
 
       <div class="modal fade" id="exampleModal{{$k}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
